@@ -652,6 +652,8 @@ namespace LiveCharts.Wpf.Charts.Base
 
         internal void AttachHoverableEventTo(FrameworkElement element)
         {
+            return;
+
             element.MouseDown -= DataMouseDown;
             element.MouseEnter -= DataMouseEnter;
             element.MouseLeave -= DataMouseLeave;
